@@ -1,0 +1,18 @@
+//footer css
+@import "./_global";
+
+footer {
+  background: $footer-bg;
+  min-height: 10vh;
+  p {
+    padding-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    .cp {
+      color: $text-color;
+    }
+    a{
+        color: $aColor;
+    }
+  }
+}

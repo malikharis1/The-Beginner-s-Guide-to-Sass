@@ -1,0 +1,16 @@
+//header css
+@import "./_global";
+.container {
+  @include flex(column, center);
+  background: $header-bg;
+  min-height: 80vh;
+  h1 {
+    font-size: 5rem;
+    color: $text-color;
+  }
+  p {
+    padding-top: 2rem;
+    color: $para-color;
+    font-size: 3rem
+  }
+}

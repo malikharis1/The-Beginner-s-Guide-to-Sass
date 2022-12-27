@@ -1,0 +1,16 @@
+@import "./_global";
+.navbar {
+  background: $navcolor;
+  min-height: 10vh;
+  ul {
+    @include flex(row, space-around);
+
+    li {
+      padding-top: 2rem;
+      list-style: none;
+      font-size: 2rem;
+      text-transform: uppercase;
+      color: $text-color;
+    }
+  }
+}

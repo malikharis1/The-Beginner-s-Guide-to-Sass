@@ -1,0 +1,28 @@
+
+// global style will be here 
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+$navcolor:#569292;
+$text-color: #330633;
+$header-bg:#13595e;
+$para-color:#EB6440;
+$footer-bg:#84a465;
+$aColor:#DC0000;
+@mixin flex( $direction,$space)
+{
+    display: flex;
+    flex-direction:$direction ;
+    justify-content: $space;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+}
