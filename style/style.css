@@ -104,4 +104,7 @@ footer p .cp {
 }
 footer p a {
   color: #DC0000;
+}
+footer p a:hover {
+  color: #330633;
 }/*# sourceMappingURL=style.css.map */

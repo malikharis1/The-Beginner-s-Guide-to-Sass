@@ -13,6 +13,9 @@ footer {
     }
     a{
         color: $aColor;
+        &:hover{
+          color: $text-color;
+        }
     }
   }
 }
